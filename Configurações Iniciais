@@ -17,3 +17,11 @@ Verificar porta
 
 Verificar politica
 # show firewall policy
+
+
+execute command like tcpdump	# diagnose sniffer packet port15 ← Interface Port15
+# diagnose sniffer packet any 'host xx.xx.xx.xx'
+# diagnose sniffer packet port15 'host xx.xx.xx.xx'
+# diagnose sniffer packet any 'host xx.xx.xx.xx or host yy.yy.yy.yy'
+# diagnose sniffer packet any 'udp port 53 or tcp port 53'
+# diagnose sniffer packet any 'host xx.xx.xx.xx and tcp port 80'
