@@ -1,2 +1,19 @@
 Configurações inicias de hostname, interface
 
+Verificar interface fisica
+
+# get system interface phisical
+
+Executar ping
+# execute ping
+# execute ping-options ------- tratamento do ping
+# execute ping-options interface 
+# eexecute ping-options source
+
+Verifcar hardware
+# get hardware status
+Verificar porta
+#get hardware nic pot1
+
+Verificar politica
+# show firewall policy
